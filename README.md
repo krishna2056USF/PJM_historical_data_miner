@@ -1,10 +1,8 @@
 PJM Historical Data Miner
 The PJM Historical Data Miner is used to retrieve PJM's historical data.
 
-Example Usage
+**Example Usage**
 To fetch various types of historical data from PJM, use the following commands:
-
-Example Usage
 
 python fetch_pjm.py -u gen_by_fuel -o dataset/gen_by_fuel.csv  
 python fetch_pjm.py -u hrl_load_metered -o dataset/hrl_load_metered.csv
